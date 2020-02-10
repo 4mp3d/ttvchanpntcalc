@@ -1,5 +1,9 @@
 <?php
 
+// If they both sub and gift it cost the viewer this much per month.
+// Calculate this based on options above.
+// Defaulting to assuming both are true for now.
+$viewercost = 5;
 $ttvsubmod = 1;
 
 $hours = $_POST['hours'];
@@ -26,11 +30,6 @@ $ttvstreak3 = 400;
 $ttvcheer = 350;
 // First gift per month points
 $ttvgift = 500;
-
-// If they both sub and gift it cost the viewer this much per month.
-// Calculate this based on options above.
-// Defaulting to assuming both are true for now.
-$viewercost = 10;
 
 $ttvpnttot = (((($hours * 60) * $streams) / $ttvpntmin) * ($ttvsubmod * $ttvpnt) * 4);
 $ttvredeemtot = (((($hours * 60) * $streams) / $ttvredeemmin) * ($ttvsubmod * $ttvredeem) * 4);
