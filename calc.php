@@ -39,5 +39,4 @@ $ttvtotxavg = $ttvtotal * $avgviewers;
 echo "Total Points / Month: ".$ttvtotal."<br>\n\r";
 // echo "Times AVG Viewers: ".$ttvtotxavg;
 // echo 'hello world';
-
 ?>

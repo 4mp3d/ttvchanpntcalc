@@ -1,6 +1,10 @@
+.main{
+	width: 1024px;
+	margin: auot;
+}
 .divTable{
 	display: table;
-	width: 100%;
+	width: 800px;
 }
 .divTableRow {
 	display: table-row;

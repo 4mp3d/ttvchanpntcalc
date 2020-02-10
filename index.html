@@ -1,34 +1,36 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel='stylesheet' type='text/css' href='style.css'>
     </head>
     <body>
-        <form name='calc' action='./calc.php' method='POST'>
-        <div class="divTable">
-            <div class="divTableBody">
-                <div class="divTableRow">
-                    <div class="divTableCell">Hours Per Stream: </div>
-                    <div class="divTableCell"><input type='text' name='hours'></div>
+        <div class='main'>
+            <form name='calc' action='./calc.php' method='POST'>
+            <div class='divTable'>
+                <div class='divTableBody'>
+                    <div class='divTableRow'>
+                        <div class='divTableCell'>Hours Per Stream: </div>
+                        <div class='divTableCell'><input type='text' name='hours'></div>
+                    </div>
+                    <div class='divTableRow'>
+                        <div class='divTableCell'>Streams Per Week: </div>
+                        <div class='divTableCell'><input type='text' name='streams'></div>
+                    </div>
+                    <div class='divTableRow'>
+                        <div class='divTableCell'>Raids per week: </div>
+                        <div class='divTableCell'><input type='text' name='raids'></div>
+                    </div>
+                    <div class='divTableRow'>
+                        <div class='divTableCell'>Subscribed: </div>
+                        <div class='divTableCell'><input type='checkbox' name='subbed' value='Subscribed' checked></div>
+                    </div>
+                    <div class='divTableRow'>
+                        <div class='divTableCell'><input type='submit' value='Calc' name='calc'></div>
+                        <div class='divTableCell'>&nbsp;</div>
+                    </div>
                 </div>
-                <div class="divTableRow">
-                    <div class="divTableCell">Streams Per Week: </div>
-                    <div class="divTableCell"><input type='text' name='streams'></div>
-                </div>
-                <div class="divTableRow">
-                    <div class="divTableCell">Raids per week: </div>
-                    <div class="divTableCell"><input type='text' name='raids'></div>
-                </div>
-                <div class="divTableRow">
-                    <div class="divTableCell">Subscribed: </div>
-                    <div class="divTableCell"><input type='checkbox' name='subbed' value='Subscribed' checked></div>
-                </div>
-                <div class="divTableRow">
-                    <div class="divTableCell"><input type='submit' value='Calc' name='calc'></div>
-                    <div class="divTableCell">&nbsp;</div>
-                </div>
-            </div>
-        </div>   
-        </form>
+            </div>   
+            </form>
+        </div>  
     </body>
 </html>
